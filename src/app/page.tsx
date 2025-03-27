@@ -1,21 +1,17 @@
-import Dashboard from "@/components/Dashboard";
-import Image from "next/image";
+import Footer from "@/components/Footer";
+import Header from "@/components/Header";
+import LeftSection from "@/components/LeftSection";
+import RightBar from "@/components/RightBar";
 
 export default function Home() {
   return (
-    <div className=" grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)] bg-[#000000]">
-      <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <Dashboard />
-      </main>
-      <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center"></footer>
+    <div className="w-full h-screen flex flex-col mb-[#102px]">
+      <Header />
+      <div className="flex w-full flex-1   bg-[#121212] relative ">
+        <LeftSection />
+        <RightBar />
+      </div>
+      <Footer />
     </div>
   );
 }

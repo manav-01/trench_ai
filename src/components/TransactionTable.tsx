@@ -124,7 +124,7 @@ const transactions: Transaction[] = [
 export default function TransactionTable() {
   return (
     <div className="w-full overflow-auto">
-      <Table className="w-full border-collapse">
+      <Table className="w-full border-collapse ">
         <TableHeader className=" border-b border-[#151515]">
           <TableRow>
             <TableHead className="text-[#4A4A4A] font-medium py-3 px-4 text-left">
