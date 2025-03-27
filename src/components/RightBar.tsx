@@ -13,7 +13,7 @@ function RightBar() {
         <div className="text-[#747474] flex  gap-5 justify-center items-center pt-1 pb-1.5 border border-[#000000]">
           {currency_basic_details.length > 0 &&
             currency_basic_details.map((value) => (
-              <div key={value.id} className=" py-1 px-2">
+              <div key={value.id} className=" py-1 px-0.5">
                 <div className="font-medium ">{value.title}</div>
                 <div className="text-right font-bold text-[#EDEDED]">
                   {value.cur_sym}
