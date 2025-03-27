@@ -7,7 +7,7 @@ import { GripHorizontalIcon } from "lucide-react";
 function LeftSection() {
   return (
     <>
-      <div className="w-6/8 bg-[#0D0D0D] relative ">
+      <div className="w-6/8 bg-[#0D0D0D] relative mb-[44px] ">
         <PanelGroup autoSaveId="example" direction="vertical">
           <Panel defaultSize={25} order={1}>
             LeftSide

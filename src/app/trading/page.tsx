@@ -6,13 +6,13 @@ import React from "react";
 
 function page() {
   return (
-    <div className="w-full h-screen flex flex-col mb-[#102px]">
+    <div className="w-full h-screen flex flex-col ">
       <Header />
       <div className="flex w-full flex-1   bg-[#121212] relative ">
         <LeftSection />
         <RightBar />
+        <Footer />
       </div>
-      <Footer />
     </div>
   );
 }

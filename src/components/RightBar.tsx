@@ -8,7 +8,7 @@ import SellOrder from "./SellOrder";
 
 function RightBar() {
   return (
-    <div className="m-1 p-2 w-2/8 h-full">
+    <div className="m-1 p-2 w-2/8 h-full mb-[44px]">
       <div className="bg-[#121212]  w-full overflow-y-scroll  border border-[#000000] h-full no-scrollbar ">
         <div className="text-[#747474] flex   justify-between px-3 items-center pt-1 pb-1.5 border border-[#000000]">
           {currency_basic_details.length > 0 &&
