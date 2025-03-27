@@ -15,7 +15,6 @@
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
     "eslint-config-prettier": "^10.1.1",
-    "eslint-plugin-tailwindcss": "^3.18.0",
     "framer-motion": "^12.5.0",
     "lucide-react": "^0.483.0",
     "next": "15.2.3",
@@ -36,9 +35,6 @@
     "eslint-config-next": "15.2.3",
     "eslint-config-standard": "^17.1.0",
     "eslint-plugin-import": "^2.31.0",
-    "eslint-plugin-n": "^17.16.2",
-    "eslint-plugin-promise": "^7.2.1",
-    "tailwindcss": "^4",
     "typescript": "^5"
   }
 }
